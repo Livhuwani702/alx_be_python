@@ -4,7 +4,8 @@ time = 3
 interest = principal * rate * time
 
 print(f"principle: ${principal}")
-print(f"rate: {rate*100:.0f}%")
+print(f"rate: {rate*100}%")
 print(f"time: {time} years")
 print(f"The simple interest is: {interest}")
+
 
