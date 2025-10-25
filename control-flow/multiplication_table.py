@@ -1,5 +1,5 @@
-X =int(input("Enter a number to see its multiplication table:"))
-print("number = {X}")
+number =int(input("Enter a number to see its multiplication table:"))
+number = X
 for Y in range(1,11):
   print(integer)
   Z = X * Y
