@@ -1,6 +1,6 @@
 Task = input(Enter your task: )
 Priority = input(Priority (high,/medium/low): )
-Time_bound = input(Is it time bound? (yes/no): )
+Time_Bound = input(Is it time bound? (yes/no): )
 
 def process comand(priority, time_bound): 
   match priority:
