@@ -11,7 +11,7 @@ def process comand(Priority, Time_Bound):
     case "low":
       print("Reminder: '{Task}' is a low priority task that requires low attention.") 
   match case
-    if Time_Bound == yes:
+    if time_bound == yes:
       print("Reminder: '{Task}' is a high priority task that requires immediate attention today.")
     else:
       print("Reminder: '{Task}' is a low priority task. Consider completing it when you have free time.")
